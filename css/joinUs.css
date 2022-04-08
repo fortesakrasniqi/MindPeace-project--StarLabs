@@ -1,0 +1,234 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  color: darkgrey;
+  height: 120px;
+}
+.hide{
+  display:none;
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 18px;
+  margin-top: 55px;
+  font-family: Trebuchet MS;
+}
+.nav-list a{
+  text-decoration: none;
+}
+.nav-list a:link {
+  text-decoration: none;
+    color: teal;
+}
+header li:hover{
+  transition: 1s;
+  color: black;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+header img{
+  width: 180px;
+  height: 120px;
+}
+
+
+
+/*-----------------------------------Contact----------------------------*/
+
+.pjesaContact{
+  width:100%;
+  height: 600px;
+  background: teal;
+  background-position: center;
+  padding-top:1%;
+  background-size: cover;
+}
+.pjesaContact h1{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+}
+.pjesaContact h5{
+  color: black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+.pjesaContact p{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+}
+.form-box{
+  width: 380px;
+  height: 500px;
+  position: relative;
+  margin: 3% auto;
+  background: whitesmoke;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.button-box{
+  width: 215px;
+  margin: 35px;
+  position: relative;
+  box-shadow: 0 0 20px 9px lightgrey;
+  border-radius: 30px ;
+}
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+    box-shadow: 0 0 20px 9px lightgrey;
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  background: teal;
+  border-radius: 30px;
+}
+.animals-icons{
+  margin: 30px auto;
+  text-align: center;
+}
+.animals-icons img{
+  width: 50px;
+  margin: 0 10px;
+  border-radius: 100px;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  box-shadow: 0 0 20px 9px lightgrey;
+  width: 100%;
+  padding: 6px;
+  margin: 5px;
+  border-bottom: 1px solid #999;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.submit-btn{
+  box-shadow: 0 0 10px 6px lightgrey;
+  width: 50%;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  background: teal;
+  border-radius: 30px;
+}
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+
+
+
+.input-group #email_error,
+.input-group #password_error{
+  width: 300px;
+  font-size: 18px;
+  color: #C62828;
+  text-align: center;
+  padding: 5px 8px;
+  display: none;
+}
+
+iframe{
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+footer{
+  width: 100%;
+  height: 500px;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  color: teal;
+  text-align: center;
+}
+footer img{
+  width: 200px;
+  height: 200px;
+  margin-right: 55px;
+}
+.footeri{
+  display: flex;
+  justify-content: space-evenly;
+}
+  footer a:link {
+  text-decoration: none;
+  }
+  footer a:visited {
+  color: teal;
+  }
+
+.information a{
+  text-decoration: none;
+}
+
+/*responsive*/
+@media (max-width: 990px){
+
+	header .nav-list{
+		font-size: 2.3vw;
+		padding: 10px;
+	  }
+	
+	  header img{
+		width: 80px;
+		height: 110px;
+	  }
+
+    .pjesaContact{
+      width: 100%;
+      position:unset;
+      padding-top:3%;
+    }
+    .form-box{
+      height: 400px;
+      margin-bottom: 5%;
+    }
+
+  .footeri{
+    font-size: 3.25vw;
+  }
+  .footeri h2{
+    font-size: 20px;
+  }
+  .footeri p{
+    font-size: 15px;
+  }
+  footer a:link {
+  text-decoration: none;
+  }
+  footer a:visited {
+  color: teal;
+  }
+  footer img{
+    margin: 0;
+    width: 20vw;
+    height: 20vw;
+    margin-right: 5%;
+  }
+}

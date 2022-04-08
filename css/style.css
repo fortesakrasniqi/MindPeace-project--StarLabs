@@ -1,0 +1,349 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  color: darkgrey;
+  height: 120px;
+}
+.hide{
+  display:none;
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 18px;
+  margin-top: 55px;
+  font-family: Trebuchet MS;
+}
+.nav-list a{
+  text-decoration: none;
+}
+.nav-list a:link {
+  text-decoration: none;
+    color: teal;
+}
+
+header li:hover{
+  transition: 1s;
+  color: black;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+header img{
+  width: 180px;
+  height: 120px;
+}
+
+.main-pic img{
+  width: 100%;
+  height: 450px;
+}
+
+/*----------------SLIDER-----------------*/
+#borderSlider{
+  flex-direction: row;
+  width: 98%;
+    margin: 0 auto;
+    margin-top: 32px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.slider{
+    margin: 33px 0;
+    border: 1px solid teal;;
+    border-radius: 10px;
+    border-bottom: #880e4f;;
+    box-shadow: 1px 2px 1px 1px teal;;
+}
+.slider .slideShow{
+    width: 99%;
+    height: 500px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.slider .slideShow img{
+  margin-top: 5px;
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+.slider .mySlides{
+    display: none;
+} 
+.slider .pointers{
+    background: white;
+    width: 140px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: -15px;
+    margin-top: -10px; 
+    text-align: center;
+
+}
+.slider .pointers .dot{
+    cursor: pointer;
+    height: 15px;
+    margin: 0 3px;
+    width: 15px;
+    background-color:teal;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 1px 2px 2px 2px;
+    transition: 2s;
+}
+.therapist-intro{
+  width: 100%;
+  height: 80px;
+  color: teal;
+  text-align: center;
+}
+.therapist-intro p{
+  font-size: 42px;
+  font-family: Brush Script MT ;
+}
+
+#noFear p{
+  font-size: 20px;
+}
+.main-items{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  height: 350px;
+}
+.first-therapist {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  padding: 20px;
+}
+.first-therapist img{
+  width: 220px;
+  height: 300px;
+  border-radius: 5px;
+}
+.first-therapist p{
+  font-size: 17px;
+  margin-top: 0;
+  margin-left:35px ;
+  font-family: Garamond;
+  width: 70%;
+}
+.second-therapist{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  padding: 20px;
+}
+.second-therapist img{
+  width: 220px;
+  height: 300px;
+  border-radius: 5px;
+}
+.second-therapist p{
+  font-size: 17px;
+  margin-top: 0;
+  margin-left:35px ;
+  font-family: Garamond;
+  width: 70%;
+}
+
+.therapist-info h3{
+  font-size: 17px;
+  margin-top: 0;
+  margin-left:35px ;
+  font-family: Garamond;
+  color: teal;
+}
+.main-items button{
+  width: 90px;
+  height: 30px;
+  color: white;
+  background-color: teal;
+  margin-left: 40%;
+  border-radius: 25px;
+}
+.main-items button:hover{
+  transition: 1s;
+  color: black;
+  opacity: 0.9;
+  color: teal;
+  background-color: white;
+}
+.aboutBtn{
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+}
+.aboutBtn button{
+  width: 85%;
+  height: 40px;
+  margin-left: 6%;
+  color: teal;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: teal;
+}
+.aboutBtn button:hover{
+  transition: 1s;
+  color: black;
+  opacity: 0.9;
+  color: white;
+  background-color: teal;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.menu img{
+  width: 520px;
+  height: 520px;
+}
+footer{
+  width: 100%;
+  height: 500px;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  color: teal;
+  text-align: center;
+}
+footer img{
+  width: 200px;
+  height: 200px;
+  margin-right: 55px;
+}
+.footeri{
+  display: flex;
+  justify-content: space-evenly;
+}
+  footer a:link {
+  text-decoration: none;
+  }
+  footer a:visited {
+  color: teal;
+  }
+
+.information a{
+  text-decoration: none;
+}
+
+/*responsive*/
+
+
+@media (max-width: 990px){
+
+  header .nav-list{
+    font-size: 2.3vw;
+    padding: 10px;
+  }
+
+  header img{
+    width: 80px;
+    height: 110px;
+  }
+
+  #borderSlider{
+    width: 100%;
+  }
+  .slider{
+    height: 50%;
+    max-height: 210px;
+  }
+  .slideShow{
+     max-height: 210px;
+  }
+  .slideShow img{
+    max-height: 200px;
+  }
+  .therapist-intro{
+    margin-top: -5%;
+  }
+  .therapist-intro h2{
+    font-size: 1.5em;
+  }
+
+  .therapist-intro p{
+    font-size: 1.75em;
+  }
+
+  .main-items{
+    flex-direction: column;
+    height: 700px;
+  }
+
+  .therapist-info{
+    max-height: fit-content;
+  }
+
+  .first-therapist{
+    width: 100%;
+  }
+
+  .first-therapist img{
+    width: 30vw;
+    height: 50vw;
+  }
+
+  .therapist-image{
+    width: 200px;
+  }
+
+  .first-therapist p{
+    font-size: 3vw;
+  }
+
+  .second-therapist{
+    width: 100%;
+  }
+
+  .second-therapist img{
+    width: 30vw;
+    height: 50vw;
+  }
+  .second-therapist p{
+    font-size: 3vw;
+  }
+
+  .therapist-info button{
+    margin-left: 30px;
+  }
+
+  .menu img{
+    width: 100%;
+  }
+
+  #noFear{
+    height: fit-content;
+  }
+
+  #noFear h1{
+    font-size: 1em;
+  }
+
+  .footeri{
+    font-size: 3.25vw;
+  }
+  .footeri h2{
+    font-size: 20px;
+  }
+  .footeri p{
+    font-size: 15px;
+  }
+  footer a:link {
+  text-decoration: none;
+  }
+  footer a:visited {
+  color: teal;
+  }
+  footer img{
+    margin: 0;
+    width: 20vw;
+    height: 20vw;
+    margin-right: 5%;
+  }
+}

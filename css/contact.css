@@ -1,0 +1,277 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  color: darkgrey;
+  height: 120px;
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 18px;
+  margin-top: 55px;
+  font-family: Trebuchet MS;
+}
+.nav-list a{
+  text-decoration: none;
+}
+.nav-list a:link {
+  text-decoration: none;
+    color: teal;
+}
+header li:hover{
+  transition: 1s;
+  color: black;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+header img{
+    width: 45%;
+  width: 180px;
+  height: 120px;
+}
+
+.main-items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -3%;
+  height: 200px;
+}
+.para-formulari{
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+ 
+}
+.first-main {
+  display: flex;
+  flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    color: #004953;
+}
+.para-formulari h4{
+    color: teal;
+}
+
+.para-formulari p{
+    font-size: 18px;
+   
+}
+.formulari{
+    padding: 100px;
+    width: 35%;
+}
+.centerPic{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    padding: 5px;
+    margin-left: 25%;
+}
+.centerPic img{
+    margin-left: 5%;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+.formulari h3{
+    color: #004953;
+}
+.main-items{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+input[type=text], [type=email],[type=tel],select{
+    padding: 12px;
+    border: 1px solid teal;
+    border-radius: 7px;
+    margin-left: 7%;
+    resize: vertical;
+}
+input[type=text], [type=email],[type=tel]{
+    width: 70%;
+}
+select{
+    width: 55%;
+}
+.message input{
+    height: 100px;
+}
+
+input[type=submit]{
+    background-color: teal;
+    color: white;
+    width: 120px;
+    padding: 7px;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 4px;
+    border: 1px solid  #004953;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.label{
+    float: left;
+    width: 10%;
+    margin-top: 6px;
+}
+.label1{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.input{
+    width: 70%;
+    margin-top: 6px;
+}
+.therapistInput{
+    width: 50%;
+    margin-top: 6px;
+} 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.notRegistered p{
+    color: teal;
+}
+
+footer{
+  width: 100%;
+  height: 500px;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  color: teal;
+  text-align: center;
+}
+footer img{
+  width: 200px;
+  height: 200px;
+  margin-right: 55px;
+}
+.footeri{
+  display: flex;
+  justify-content: space-evenly;
+}
+  footer a:link {
+  text-decoration: none;
+  }
+  footer a:visited {
+  color: teal;
+  }
+
+.information a{
+  text-decoration: none;
+}
+
+/*responsive*/
+
+@media (max-width: 990px){
+
+	header .nav-list{
+		font-size: 2.3vw;
+		padding: 10px;
+	  }
+	
+	  header img{
+		width: 80px;
+		height: 110px;
+	  }
+	/* body{
+    max-width: 100%;
+  }
+  header {
+    max-width: 100%;
+  } */
+
+
+  /* header {
+    width: fit-content;
+  } */
+
+
+
+
+  .first-main {
+    font-size: 2rem;
+    text-align: center;
+  } 
+
+  .main-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    font-size: 2.3vw;
+  }
+
+  .para-formulari{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .para-formulari h4{
+    font-size: 1.8em;
+    text-align: center;
+    margin-left:0;
+  }
+  .centerPic{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-top: 5px;
+    margin-left: 0%;
+    /* margin-right: 0%; */
+}
+
+.centerPic img{
+  margin-right: 5%;
+  width: 90%;
+  height: 50%;
+}
+.formulari{
+  font-size: 2em;
+  width: 100%;
+}
+.formulari h3{
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 0%;
+}
+
+  .footeri{
+    font-size: 3.25vw;
+  }
+  .footeri h2{
+    font-size: 20px;
+  }
+  .footeri p{
+    font-size: 15px;
+  }
+  footer a:link {
+  text-decoration: none;
+  }
+  footer a:visited {
+  color: teal;
+  }
+  footer img{
+    margin: 0;
+    width: 20vw;
+    height: 20vw;
+    margin-right: 5%;
+  }
+}

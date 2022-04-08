@@ -1,0 +1,57 @@
+h1{
+  color: teal;
+  font-size: 50px;
+  margin-left: 40%;
+  text-decoration: underline;
+}
+.input-group2{
+  top: 180px;
+  position: absolute;
+  width: 380px;
+  transition: .5s;
+  margin-left: 38%;
+}
+.input-field2{
+  box-shadow: 0 0 2px 2px lightgrey;
+  width: 100%;
+  padding: 6px;
+  margin: 5px;
+  border-bottom: 1px solid #999;
+  border-radius: 100px;
+  text-align: center;
+}
+.aboutStaff{
+  height: 80px;
+  box-shadow: 0 0 2px 2px lightgrey;
+  width: 100%;
+  padding: 6px;
+  margin: 5px;
+  border-bottom: 1px solid #999;
+  border-radius: 30px;
+  text-align: center;
+}
+.submit-btn{
+  box-shadow: 0 0 5px 6px lightgrey;
+  width: 50%;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  background: teal;
+  border-radius: 30px;
+}
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+
+.input-group #email_error,
+.input-group #password_error{
+  width: 300px;
+  font-size: 18px;
+  color: #C62828;
+  text-align: center;
+  padding: 5px 8px;
+  display: none;
+}

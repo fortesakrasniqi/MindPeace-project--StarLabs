@@ -1,0 +1,87 @@
+*{
+	background-color: whitesmoke;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  color: darkgrey;
+  height: 120px;
+}
+.hide{
+  display:none;
+}
+.nav-list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 18px;
+  margin-top: 55px;
+  font-family: Trebuchet MS;
+}
+.nav-list a{
+  text-decoration: none;
+}
+.nav-list a:link {
+  text-decoration: none;
+    color: teal;
+}
+header li:hover{
+  transition: 1s;
+  color: black;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+header img{
+  width: 180px;
+  height: 120px;
+}
+h1{
+  color: teal;
+  text-align: center;
+  text-decoration: underline;
+}
+table{
+	width: 80%;
+	color: teal;
+	margin-left: 10%;
+	border-color: teal;
+	text-decoration: none;
+	text-align: center;
+}
+table th{
+	height: 40px;
+	background-color: white;
+}
+table tr{
+	height: 25px;
+}
+table button{
+  width: 100%;
+  padding: 10px;
+  background: teal;
+}
+
+.faqsBtn{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+  height: 50px;
+}
+.faqsBtn1 button{
+  display: flex;
+  justify-content: space-evenly;
+  width: 450px;
+  padding: 20px;
+  background-color:teal;
+  color: whitesmoke;
+}
+.faqsBtn2 button{
+  display: flex;
+  justify-content: space-evenly;
+  width: 450px;
+  padding: 20px;
+  background-color:teal;
+  color: whitesmoke;
+}
